@@ -1,24 +1,15 @@
-# test
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Для практики:
+1)Создать html страничку (если будешь использовать webpack, то можно и vue файл создать)
+2)Разделить её на 2 блока - шапка и контент
+ В шапке 4 кнопки (Сотрудник, админ, гость), в контенте 7 блоков с любым содержанием (важно, что бы были адаптивными
+3)Создать внутри экземпляра Vue объект data и добавить туда массив объектов
+users: [{
+id:1,title:'Сотрудник',value:'employee'
+},
+{
+id:2,title:'Админ',value:'admin'
+}
+{
+id:3,title:'Гость',value:'guest'
+}]
+4)Перебрать при помощи v-for этот массив и вывести их в кнопки шапки
