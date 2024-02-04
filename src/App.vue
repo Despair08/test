@@ -42,6 +42,12 @@ li {
   list-style: none;
 }
 
+.container {
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 
 
 #app {

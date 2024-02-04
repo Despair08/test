@@ -43,7 +43,6 @@ export default {
   methods: {
     isSeen: function () {
       this.seen = !this.seen;
-      console.log(this.seen);
     }
   }
 }
@@ -54,6 +53,14 @@ export default {
   display: flex;
   padding: 10px 20px;
   column-gap: 20px;
+}
+
+@media(max-width:460px) {
+  .header__container {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
 }
 
 .buttons__container {

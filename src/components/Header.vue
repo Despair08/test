@@ -1,6 +1,8 @@
 <template>
   <nav class="header">
-    <Button></Button>
+    <div class="container">
+      <Button></Button>
+    </div>
   </nav>
 </template>
 
@@ -19,8 +21,8 @@ export default {
 .header {
   display: block;
   align-items: center;
-  height: 50px;
   padding: 0 20px;
   background-color: #42b983;
+  width: 100%;
 }
 </style>

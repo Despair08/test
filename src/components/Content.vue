@@ -1,24 +1,22 @@
 <template>
-  <div class="contant__container">
-    {{ text }}
+  <div class="container">
+    <Section></Section>
   </div>
 </template>
 
 <script>
+import Section from './Section.vue';
 export default {
   name: 'app-content',
-  data() {
-    return {
-      text: 'content'
-    }
+  components: {
+    Section
   }
 }
 </script>
 
 <style>
 .contant__container {
-  max-width: 95%;
-  margin: 0 auto;
+  padding: 0 15px;
   flex-grow: 1;
 }
 </style>
