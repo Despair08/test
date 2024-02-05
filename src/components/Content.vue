@@ -19,4 +19,6 @@ export default {
   padding: 0 15px;
   flex-grow: 1;
 }
+
+
 </style>

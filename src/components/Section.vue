@@ -29,6 +29,7 @@ export default {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  padding-bottom: 20px;
 }
 
 .section__header {
